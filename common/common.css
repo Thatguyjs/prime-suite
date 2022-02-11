@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("open_sans/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("ubuntu/Ubuntu-Regular.ttf");
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+
+	height: 100vh;
+
+	font-family: "Open Sans";
+	background: #ddd;
+}
+
+.hidden {
+	display: none !important;
+}
+
+
+/* Specific styles that are the same everywhere */
+
+header {
+	width: 100%;
+	background: #4185e5;
+}
+
+header h1 {
+	font-family: "Ubuntu";
+	color: #efefef;
+
+	user-select: none;
+}
+
+#nav-home {
+	margin: 0 12px;
+	padding-left: 4px;
+
+	width: 60px;
+	height: 100%;
+
+	transition: background 200ms;
+}
+
+#nav-home:hover {
+	background: #0052;
+}
+
+#nav-home:hover svg {
+	transform: translateX(-4px);
+}
+
+#nav-home svg {
+	padding: 20%;
+
+	width: 60%;
+	height: 60%;
+
+	fill: #ddd;
+
+	transition: transform 150ms;
+}

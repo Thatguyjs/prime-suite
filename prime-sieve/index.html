@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A collection of programs related to prime numbers">
+
+		<title>Prime Suite - Prime Sieve</title>
+
+		<link rel="icon" href="common/favicon.ico">
+		<link rel="stylesheet" href="common/common.css">
+		<link rel="stylesheet" href="prime-sieve/style.css">
+
+		<script type="module" src="common/icons.mjs"></script>
+	</head>
+	<body>
+		<header>
+			<a id="nav-home" href="..">
+				<svg><use href="#icon-back"></svg>
+			</a>
+
+			<h1>Prime Sieve</h1>
+		</header>
+
+		<main>
+			<div id="container">
+				<h2>Enter the upper bound below</h2>
+				<input id="number" type="number" placeholder="max">
+				<span id="number-error"></span>
+			</div>
+
+			<div id="results">
+				<span>Prime Count: <span id="result-prime-count">0</span></span>
+				<div id="result-primes"></div>
+			</div>
+		</main>
+
+		<script type="module" src="prime-sieve/main.mjs"></script>
+	</body>
+</html>

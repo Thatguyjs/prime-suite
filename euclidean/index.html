@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A collection of programs related to prime numbers">
+
+		<title>Prime Suite - Euclidean Algorithm</title>
+
+		<link rel="icon" href="common/favicon.ico">
+		<link rel="stylesheet" href="common/common.css">
+		<link rel="stylesheet" href="euclidean/style.css">
+
+		<script type="module" src="common/icons.mjs"></script>
+	</head>
+	<body>
+		<header>
+			<a id="nav-home" href="..">
+				<svg><use href="#icon-back"></svg>
+			</a>
+
+			<h1>Euclidean Algorithm</h1>
+		</header>
+
+		<main>
+			<div id="container">
+				<h2>Enter two numbers below</h2>
+				<input id="number-a" type="number" placeholder="a">
+				<input id="number-b" type="number" placeholder="b">
+				<span id="number-error"></span>
+
+				<div id="results">
+					<span>GCD: <span id="result-gcd"></span></span>
+				</div>
+			</div>
+		</main>
+
+		<script type="module" src="euclidean/main.mjs"></script>
+	</body>
+</html>

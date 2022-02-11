@@ -1,0 +1,85 @@
+header {
+	position: fixed;
+
+	display: flex;
+	align-items: center;
+
+	width: 100%;
+	height: 65px;
+}
+
+header > * {
+	display: inline-block;
+}
+
+
+header h1 {
+	margin: 0 0 0 16px;
+	padding-bottom: 3px;
+
+	font-size: 26px;
+}
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: calc(65px + 2em) 3em 2em 3em;
+}
+
+#container {
+	padding: 1em 2em;
+
+	width: 40%;
+	min-width: 300px;
+
+	background: #0001;
+	border-radius: 8px;
+}
+
+#container h2 {
+	margin: 0 0 0.75em 0;
+
+	font-size: 20px;
+	color: #282828;
+}
+
+#container input {
+	padding: 4px 6px;
+	width: 100px;
+
+	font-size: 15px;
+}
+
+#number-error {
+	margin-left: 6px;
+	color: #a02020;
+}
+
+#results {
+	margin-top: 1.5em;
+	max-width: 80%;
+}
+
+#results > * {
+	display: block;
+	margin: 4px 0;
+}
+
+#results > span {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#result-primes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#result-primes > span {
+	margin: 0.25em 0.1em;
+	width: 55px;
+	text-align: center;
+}

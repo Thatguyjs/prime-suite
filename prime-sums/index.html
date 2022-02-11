@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A collection of programs related to prime numbers">
+
+		<title>Prime Suite - Prime Sums</title>
+
+		<link rel="icon" href="common/favicon.ico">
+		<link rel="stylesheet" href="common/common.css">
+		<link rel="stylesheet" href="prime-sums/style.css">
+
+		<script type="module" src="common/icons.mjs"></script>
+	</head>
+	<body>
+		<header>
+			<a id="nav-home" href="..">
+				<svg><use href="#icon-back"></svg>
+			</a>
+
+			<h1>Prime Sums</h1>
+		</header>
+
+		<main>
+			<div id="container">
+				<h2>Enter a number below</h2>
+				<input id="number" type="number" placeholder="n">
+				<span id="number-error"></span>
+
+				<div id="results">
+					<span>Is the sum of 2 primes: <span id="result-sum-of-2"></span></span>
+					<span>Equation: <span id="result-nums"></span></span>
+				</div>
+			</div>
+		</main>
+
+		<script type="module" src="prime-sums/main.mjs"></script>
+	</body>
+</html>

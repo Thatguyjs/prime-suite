@@ -1,0 +1,11 @@
+# Unused font files
+common/open_sans/*.ttf
+common/open_sans/static/*
+common/open_sans/README.txt
+common/roboto/*.ttf
+common/ubuntu/*.ttf
+
+# Used fonts
+!common/open_sans/OpenSans-VariableFont_wdth,wght.ttf
+!common/roboto/Roboto-Thin.ttf
+!common/ubuntu/Ubuntu-Regular.ttf

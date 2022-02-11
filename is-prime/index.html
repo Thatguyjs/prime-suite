@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A collection of programs related to prime numbers">
+
+		<title>Prime Suite - Is Prime</title>
+
+		<link rel="icon" href="common/favicon.ico">
+		<link rel="stylesheet" href="common/common.css">
+		<link rel="stylesheet" href="is-prime/style.css">
+
+		<script type="module" src="common/icons.mjs"></script>
+	</head>
+	<body>
+		<header>
+			<a id="nav-home" href="..">
+				<svg><use href="#icon-back"></svg>
+			</a>
+
+			<h1>Is Prime</h1>
+		</header>
+
+		<main>
+			<div id="container">
+				<h2>Enter a number below</h2>
+				<input id="number" type="number" placeholder="n">
+				<span id="number-error"></span>
+
+				<div id="results">
+					<span>Is prime: <span id="result-is-prime"></span></span>
+					<span>Factors (<span id="result-factor-count">0</span>):
+						<span id="result-factors"></span>
+					</span>
+				</div>
+			</div>
+		</main>
+
+		<script type="module" src="is-prime/main.mjs"></script>
+	</body>
+</html>
